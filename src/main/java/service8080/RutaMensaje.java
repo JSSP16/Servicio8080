@@ -9,7 +9,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 @ApplicationScoped
 public class RutaMensaje extends RouteBuilder {
 
-    @ConfigProperty(name = "service.8081.url", defaultValue = "http://localhost:8081")
+    @ConfigProperty(name = "service.8081.url", defaultValue = "https://sercicio8081.onrender.com")
     String service8081Url;
 
     @Override
